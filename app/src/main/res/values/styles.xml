@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PrimaryText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="SecondaryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+</resources>

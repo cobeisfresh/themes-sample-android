@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Themes Sample</string>
+
+    <string name="theme_title">Themes:</string>
+    <string name="light_theme">Dark theme</string>
+    <string name="dark_theme">Light theme</string>
+    <string name="system_theme">Use system theme</string>
+    <string name="battery_saver_theme">Battery saver theme</string>
+
+</resources>
