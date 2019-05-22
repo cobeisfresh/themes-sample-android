@@ -5,6 +5,7 @@ import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -16,7 +17,7 @@ const val THEME_DARK = 1
 const val THEME_SYSTEM = 2
 const val THEME_BATTERY = 3
 
-class MainActivity : BaseActivity() {
+class MainActivity : AppCompatActivity() {
 
     private val sharedPrefs by lazy {  getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE) }
 
