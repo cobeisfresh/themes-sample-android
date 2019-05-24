@@ -1,6 +1,7 @@
 package com.cobeisfresh.themes
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
@@ -26,6 +27,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         initThemeListener()
         initTheme()
+        nextActivity.setOnClickListener { startNextActivity() }
+    }
+
+    private fun startNextActivity(){
+        val intent = Intent(this, OtherActivity::class.java)
+        startActivity(intent)
     }
 
     private fun initThemeListener(){
